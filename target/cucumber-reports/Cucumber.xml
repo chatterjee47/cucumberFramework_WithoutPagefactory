@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="114.032092">
+<testcase classname="CK application testing" name="To verify Login function" time="52.798496">
+<system-out><![CDATA[When CK application is Launch...............................................passed
+And User enters Credentials to LogIn........................................passed
+Then User verify tile of the page...........................................passed
+When User Clicks on Class tab...............................................passed
+And User enters class code"Test123".........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CK application testing" name="To Create New Quiz" time="61.233596">
+<system-out><![CDATA[When CK application is Launch...............................................passed
+And User enters Credentials to LogIn........................................passed
+Then User verify tile of the page...........................................passed
+When User Clicks on Library tab.............................................passed
+And User click on Create new dropdown.......................................passed
+Then User enters on Quiz option.............................................passed
+Then User enters valid QuizTitle "QATestOne"................................passed
+]]></system-out>
+</testcase>
+</testsuite>

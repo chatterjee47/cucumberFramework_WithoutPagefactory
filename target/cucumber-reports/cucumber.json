@@ -1,0 +1,256 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User Login to CK application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15362679000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "CK application is Launch",
+            "match": {
+              "location": "StepDefinition_LoginPageTest.ck_application_is_Launch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18949671400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters Credentials to LogIn",
+            "match": {
+              "location": "StepDefinition_LoginPageTest.user_enters_Credentials_to_LogIn(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First Name",
+                  "Last Name"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "chatterjeeamit42@gmail.com",
+                  "Testing123$"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3034999100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verify tile of the page",
+            "match": {
+              "location": "StepDefinition_LoginPageTest.user_verify_tile_of_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "To verify Login function",
+        "description": "",
+        "id": "ck-application-testing;to-verify-login-function;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4910347500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Clicks on Class tab",
+            "match": {
+              "location": "StepDefinition_LoginPageTest.user_Clicks_on_Class_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10540798900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters class code\"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test123",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition_LoginPageTest.user_enters_class_code(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@SearchingClass"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User Login to CK application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15389947000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "CK application is Launch",
+            "match": {
+              "location": "StepDefinition_LoginPageTest.ck_application_is_Launch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19199702700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters Credentials to LogIn",
+            "match": {
+              "location": "StepDefinition_LoginPageTest.user_enters_Credentials_to_LogIn(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First Name",
+                  "Last Name"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "chatterjeeamit42@gmail.com",
+                  "Testing123$"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3048998200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verify tile of the page",
+            "match": {
+              "location": "StepDefinition_LoginPageTest.user_verify_tile_of_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "To Create New Quiz",
+        "description": "",
+        "id": "ck-application-testing;to-create-new-quiz;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5091109800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Clicks on Library tab",
+            "match": {
+              "location": "StepDefinition_LoginPageTest.user_Clicks_on_Library_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3211965900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on Create new dropdown",
+            "match": {
+              "location": "StepDefinition_LoginPageTest.user_click_on_Create_new_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4539558800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters on Quiz option",
+            "match": {
+              "location": "StepDefinition_LoginPageTest.user_enters_on_Quiz_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10752313500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters valid QuizTitle \"QATestOne\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QATestOne",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition_LoginPageTest.user_enters_valid_QuizTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@CreatingQuiz"
+          }
+        ]
+      }
+    ],
+    "name": "CK application testing",
+    "description": "",
+    "id": "ck-application-testing",
+    "keyword": "Feature",
+    "uri": "LoginTest.feature"
+  }
+]
